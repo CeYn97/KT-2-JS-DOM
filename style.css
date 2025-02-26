@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+article {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+}
